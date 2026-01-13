@@ -50,16 +50,7 @@ function App() {
               </a>
             </p>
 
-            <p className="contact-block">
-              <strong>Personal Practice Website:</strong>
-              <a
-                href="https://yangpizzas.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                yangpizzas.com
-              </a>
-            </p>
+            
           </div>
         </aside>
 
