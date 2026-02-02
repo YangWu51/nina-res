@@ -201,8 +201,7 @@ function App() {
                     responsive.
                   </li>
                   <li>
-                    Added accessibility support such as keyboard navigation and clearer form
-                    interactions to make internal clinical tools easier to use.
+                    Added accessibility features aligned with <strong>Section 508 </strong>and <strong>WCAG </strong>guidelines, including keyboard navigation, focus management, and accessible form interactions, improving usability for internal clinical tools.
                   </li>
                   <li>
                     Used <strong>React Query</strong> to manage how the front end fetches and
