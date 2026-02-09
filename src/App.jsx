@@ -193,49 +193,30 @@ function App() {
 
                 <ul>
   <li>
-    Developed and maintained the UI layer of a hospital internal system using
-    <strong> React</strong>, supporting core clinical workflows such as patient
-    intake, scheduling, rehabilitation tracking, and telehealth sessions.
-  </li>
-
-  <li>
-    Built data-heavy dashboards and visualization-focused views using
-    <strong> Chart.js</strong>, presenting rehabilitation scores and mobility
-    trends to help clinicians monitor patient recovery more effectively.
-  </li>
-
-  <li>
-    Used <strong>React</strong> for data-intensive clinical dashboards, managing
-    complex UI state with Hooks, Context API, and Suspense to improve UX
-    responsiveness for analytics-heavy screens.
-  </li>
-
-  <li>
-    Applied <strong>React Query</strong> to handle server state, caching, and
-    background refetching for <strong>RESTful</strong> and{" "}
-    <strong>GraphQL APIs</strong>, reducing manual data handling and improving
-    perceived UI performance.
-  </li>
-
-  <li>
-    Built and maintained a <strong>micro-frontend architecture</strong> within
-    an <strong>Nx monorepo</strong>, structuring the UI by business domains to
-    enable independent development, deployment, and clear ownership boundaries.
+    Built and maintained a <strong>micro-frontend architecture</strong> within an{" "}
+    <strong>Nx monorepo</strong>, structuring the UI by business domains to enable
+    independent development, deployment, and clear ownership boundaries.
   </li>
 
   <li>
     Implemented <strong>Angular</strong> for form-heavy, workflow-driven modules,
     using standalone components, Reactive Forms, RxJS, and dependency injection,
-    with shared validation logic and OnPush change detection to ensure
-    consistency, maintainability, and performance across complex clinical
-    workflows.
+    with shared validation logic and OnPush change detection to ensure consistency,
+    maintainability, and performance across complex clinical workflows.
+  </li>
+
+  <li>
+    Used <strong>React</strong> for data-intensive clinical dashboards and
+    visualization-focused views, managing complex UI state with Hooks, Context
+    API, and Suspense, and improving UX responsiveness for analytics-heavy
+    screens.
   </li>
 
   <li>
     Integrated <strong>Angular</strong> and <strong>React</strong> micro-frontends
-    via Nx-managed shared libraries, enabling shared UI components, design
-    tokens, authentication context, and global navigation while keeping
-    framework-specific implementations isolated.
+    via Nx-managed shared libraries, enabling shared UI components, design tokens,
+    authentication context, and global navigation while keeping framework specific
+    implementations isolated.
   </li>
 
   <li>
@@ -252,12 +233,29 @@ function App() {
   </li>
 
   <li>
-    Improved accessibility and responsive behavior by applying{" "}
-    <strong>Section 508</strong> and <strong>WCAG 2.1 AA</strong> standards,
-    enhancing keyboard navigation, form usability, and layout behavior across
-    different screen sizes.
+    Applied <strong>React Query</strong> within React applications to handle server
+    state, caching, and background refetching for <strong>RESTful</strong> and{" "}
+    <strong>GraphQL APIs</strong>, reducing manual data handling and improving
+    perceived UI performance.
+  </li>
+
+  <li>
+    Optimized UI performance across micro-frontends using lazy loading,
+    route-level code splitting, and bundle analysis, and applied{" "}
+    <strong>WCAG 2.1 AA</strong> accessibility standards to ensure usability of
+    internal clinical tools.
+  </li>
+
+  <li>
+    Supported <strong>CI/CD pipelines</strong> using{" "}
+    <strong>GitHub Actions</strong>, building and deploying Nx-managed
+    micro-frontends to <strong>AWS Amplify</strong> with CloudFront CDN, and
+    monitored frontend health using <strong>AWS CloudWatch</strong>.
   </li>
 </ul>
+
+
+
 
 
 
