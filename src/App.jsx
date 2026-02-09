@@ -75,6 +75,13 @@ function App() {
                     enterprise web applications and SaaS platforms in healthcare, construction,
                     and low-code automation domains.
                   </li>
+                  <li>
+                    Built and maintained <strong>micro-frontend</strong> architectures within an <strong>Nx monorepo</strong>, organizing UI by business domains to enable independent development, deployment, and clear ownership boundaries.
+                  </li>
+                  
+                  <li>
+                    Deep experience integrating  <strong>React and Angular </strong>in the same micro-frontend system, sharing design tokens, authentication context, and global navigation while keeping framework-specific implementations isolated
+                  </li>
 
                   <li>
                     Strong front-end expertise in <strong>React</strong>,
@@ -153,7 +160,7 @@ function App() {
             {open.skills && (
               <div className="accordion-body">
                 <p><strong>Programming Languages:</strong> JavaScript (ES6+), TypeScript, Python, Java, SQL</p>
-                <p><strong>Frontend & UI Development:</strong> React, Redux Toolkit, Next.js, TypeScript, HTML5, CSS3, SCSS, Tailwind CSS, Material UI, React-Bootstrap, Styled Components, Vite, Webpack</p>
+                <p><strong>Frontend & UI Development:</strong> React, Angular, Redux Toolkit, Next.js, TypeScript, HTML5, CSS3, SCSS, Tailwind CSS, Material UI, React-Bootstrap, Styled Components, Vite, Webpack</p>
                 <p><strong>Backend & APIs:</strong> Node.js, Express.js, RESTful API Design, JWT Authentication, Role-Based Access Control (RBAC), Axios</p>
                 <p><strong>Databases & Cloud:</strong> MongoDB, PostgreSQL, MySQL, Redis, AWS Amplify, Firebase</p>
                 <p><strong>DevOps & Deployment:</strong> Docker, Jenkins, GitHub Actions, CI/CD Pipeline Configuration, AWS Hosting</p>
@@ -185,53 +192,73 @@ function App() {
                 </p>
 
                 <ul>
-                  <li>
-                    Developed and maintained the UI layer of a hospital internal system using
-                    <strong>React</strong>, supporting core clinical workflows such as patient
-                    intake, scheduling, rehabilitation tracking, and telehealth sessions.
-                  </li>
-                  <li>
-                    Built data-heavy dashboards and detailed views using <strong>Chart.js</strong>
-                    to present rehabilitation scores and mobility trends, helping clinicians
-                    monitor patient recovery more effectively.
-                  </li>
-                  <li>
-                    Improved front end performance by splitting large pages and loading heavy
-                    views on demand, reducing initial load time and making the UI feel more
-                    responsive.
-                  </li>
-                  <li>
-                    Added accessibility features aligned with <strong>Section 508 </strong>and <strong>WCAG </strong>guidelines, including keyboard navigation, focus management, and accessible form interactions, improving usability for internal clinical tools.
-                  </li>
-                  <li>
-                    Used <strong>React Query</strong> to manage how the front end fetches and
-                    updates data from <strong>RESTful</strong> and <strong>GraphQL</strong> APIs,
-                    reducing manual state handling and keeping patient data in sync across pages.
-                  </li>
-                  <li>
-                    Built and maintained <strong>RESTful APIs</strong> using
-                    <strong>Node.js</strong> and <strong>Express.js</strong> to handle
-                    state-changing operations including patient record updates, scheduling
-                    changes, and telehealth status management, enforcing
-                    <strong>JWT-based</strong> authentication and
-                    <strong>role-based access control</strong>.
-                  </li>
-                  <li>
-                    Used <strong>GraphQL</strong> queries and resolvers to retrieve and aggregate
-                    patient data for dashboards and detailed views, fetching only the fields
-                    needed by each view.
-                  </li>
-                  <li>
-                    Integrated <strong>AI-assisted</strong> summaries and insights into existing
-                    UI flows, allowing clinicians and internal teams to review patient progress
-                    and notes more efficiently without disrupting established workflows.
-                  </li>
-                  <li>
-                    Set up <strong>GitHub Actions</strong> with <strong>AWS Amplify</strong> so
-                    front end changes could be built and deployed automatically after each
-                    merge, avoiding manual releases and improving deployment reliability.
-                  </li>
-                </ul>
+  <li>
+    Developed and maintained the UI layer of a hospital internal system using
+    <strong> React</strong>, supporting core clinical workflows such as patient
+    intake, scheduling, rehabilitation tracking, and telehealth sessions.
+  </li>
+
+  <li>
+    Built data-heavy dashboards and visualization-focused views using
+    <strong> Chart.js</strong>, presenting rehabilitation scores and mobility
+    trends to help clinicians monitor patient recovery more effectively.
+  </li>
+
+  <li>
+    Used <strong>React</strong> for data-intensive clinical dashboards, managing
+    complex UI state with Hooks, Context API, and Suspense to improve UX
+    responsiveness for analytics-heavy screens.
+  </li>
+
+  <li>
+    Applied <strong>React Query</strong> to handle server state, caching, and
+    background refetching for <strong>RESTful</strong> and{" "}
+    <strong>GraphQL APIs</strong>, reducing manual data handling and improving
+    perceived UI performance.
+  </li>
+
+  <li>
+    Built and maintained a <strong>micro-frontend architecture</strong> within
+    an <strong>Nx monorepo</strong>, structuring the UI by business domains to
+    enable independent development, deployment, and clear ownership boundaries.
+  </li>
+
+  <li>
+    Implemented <strong>Angular</strong> for form-heavy, workflow-driven modules,
+    using standalone components, Reactive Forms, RxJS, and dependency injection,
+    with shared validation logic and OnPush change detection to ensure
+    consistency, maintainability, and performance across complex clinical
+    workflows.
+  </li>
+
+  <li>
+    Integrated <strong>Angular</strong> and <strong>React</strong> micro-frontends
+    via Nx-managed shared libraries, enabling shared UI components, design
+    tokens, authentication context, and global navigation while keeping
+    framework-specific implementations isolated.
+  </li>
+
+  <li>
+    Designed cross-framework state-sharing patterns using a combination of URL
+    state, shared services, and API-driven state, ensuring{" "}
+    <strong>Angular</strong> and <strong>React</strong> views remained synchronized
+    without tight runtime coupling.
+  </li>
+
+  <li>
+    Optimized frontend performance through code splitting, lazy loading,
+    memoization, and bundle analysis, improving initial load time and runtime
+    responsiveness across micro-frontends.
+  </li>
+
+  <li>
+    Improved accessibility and responsive behavior by applying{" "}
+    <strong>Section 508</strong> and <strong>WCAG 2.1 AA</strong> standards,
+    enhancing keyboard navigation, form usability, and layout behavior across
+    different screen sizes.
+  </li>
+</ul>
+
 
 
                 <h3>Full-stack Developer — Glodon</h3>
